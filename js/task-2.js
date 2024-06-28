@@ -37,6 +37,6 @@ const createGalleryItems = images
   })
   .join("");
 
-  // додаємо елементи в DOM
+// додаємо елементи в DOM
 
 gallery.insertAdjacentHTML("afterbegin", createGalleryItems);
